@@ -1,6 +1,6 @@
 Package: stats230
 Title: Implementations of Algorithms Discussed in UCI Stats 230
-Version: 1.1.0
+Version: 1.2.0
 Authors@R: 
     person("Thanasi", "Bakis", , "thanasibakis@gmail.com", role = c("aut", "cre"))
 Description: Package for UCI Stats 230 course assignments, under Prof. Vladimir Minin.
@@ -9,5 +9,8 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
+    dplyr,
+    ggplot2,
     magrittr,
-    stats
+    stats,
+    tibble
